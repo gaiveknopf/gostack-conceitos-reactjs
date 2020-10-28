@@ -18,7 +18,6 @@ function App() {
     });
 
     setRepositories([...repositories, response.data]);
-    console.log(response.data);
   }
 
   async function handleRemoveRepository(id, itemIndex) {
